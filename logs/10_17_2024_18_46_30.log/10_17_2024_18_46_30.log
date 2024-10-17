@@ -1,0 +1,5 @@
+[ 2024-10-17 18:46:37,414 ] - 159 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2024-10-17 18:46:38,818 ] - 20 - root - INFO - Entered into the data injestion componnet
+[ 2024-10-17 18:46:38,845 ] - 23 - root - INFO - Dataset has been read
+[ 2024-10-17 18:46:38,857 ] - 27 - root - INFO - Train Test Split initiated
+[ 2024-10-17 18:46:38,872 ] - 34 - root - INFO - Data ingestion is completed

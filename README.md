@@ -37,3 +37,5 @@ PS D:\mymlproject> git commit -m "First commit"
 PS D:\mymlproject> 
 __init__.py is to identify a particular folder
 python setup.py bdist_egg ---------- command to generate .egg-info file for our project
+
+python -m src.exception_handler ---------- to run a file present in src package
