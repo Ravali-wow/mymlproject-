@@ -40,4 +40,21 @@ python setup.py bdist_egg ---------- command to generate .egg-info file for our 
 
 python -m src.exception_handler ---------- to run a file present in src package
 
-git push origin main------------to push from origin of repository to main repository present in git hub server
+#To push our local repo to remote git server.
+1.git add . ----------------adds to git
+2.git push origin main------------to push from origin of repository to main repository present in git hub server
+3.git commit -m "CommitName"-------------it commits the pushed repo in git server
+
+
+#To download a library 
+1,add that requirement in requirements.txt
+2.run 'pip install -r requirements.txt'
+
+#To upgrade pip or install latest version of pip
+1. run 'python -m pip install --upgrade pip'
+
+#Got this error
+conda : The term 'conda' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again
+  --resolved this by adding bin and Scripts of anaconda prompt to env variables of my account
+  --in anaconda prompt, give 'where conda' to fetch paths
