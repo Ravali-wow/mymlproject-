@@ -5,12 +5,14 @@ import pandas as pd
 import numpy as np
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
+from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
 from src.exception_handler import CustomException 
 from src.logger import logging 
 from src.utils import save_object
 
+@dataclass
 class DataTransformationConfig :
     preprocessor_obj_path=os.path.join('artifacts','preprocessor.pkl')#this is resultant file
     #pkl file helps in serializing and deserializing of objects so that scikit learn module uses them efficiently
@@ -90,8 +92,8 @@ class DataTransformation:
             logging.info(
                 f"Applying preprocessing object on training dataframe and testing dataframe."
             )
-            input_feature_train_arr=preprocessing_obj.fit_transform(input_feature_train_df)
-            input_feature_test_arr=preprocessing_obj.transform(input_feature_test_df)
+            input_feature_train_arr=preprocessor_obj.fit_transform(input_feature_train_df)
+            input_feature_test_arr=preprocessor_obj.transform(input_feature_test_df)
 
             train_arr = np.c_[
                 input_feature_train_arr, np.array(target_feature_train_df)
@@ -102,15 +104,15 @@ class DataTransformation:
 
             save_object(
 
-                file_path=self.data_transformation_config.preprocessor_obj_file_path,
-                obj=preprocessing_obj
+                file_path=self.data_transformation_config.preprocessor_obj_path,
+                obj=preprocessor_obj
 
             )
 
             return (
                 train_arr,
-                test_arr,
-                self.data_transformation_config.preprocessor_obj_file_path,
+                test_arr
+                #self.data_transformation_config.preprocessor_obj_path,
             )
         except Exception as e:
             raise CustomException(e,sys)

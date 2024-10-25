@@ -1,0 +1,12 @@
+[ 2024-10-23 22:13:12,935 ] - 28 - root - INFO - Entered into the data injestion componnet
+[ 2024-10-23 22:13:12,951 ] - 31 - root - INFO - Dataset has been read
+[ 2024-10-23 22:13:12,967 ] - 35 - root - INFO - Train Test Split initiated
+[ 2024-10-23 22:13:12,984 ] - 42 - root - INFO - Data ingestion is completed
+[ 2024-10-23 22:13:13,033 ] - 77 - root - INFO - Train and Test data is loaded
+[ 2024-10-23 22:13:13,033 ] - 79 - root - INFO - Obtaining preprocessor object
+[ 2024-10-23 22:13:13,034 ] - 54 - root - INFO - Numerical columns are imputed and scaled
+[ 2024-10-23 22:13:13,034 ] - 55 - root - INFO - Categorical columns are imputed,encoded and scaled
+[ 2024-10-23 22:13:13,038 ] - 92 - root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[ 2024-10-23 22:13:13,085 ] - 103 - root - INFO - Saved preprocessing object.
+[ 2024-10-23 22:13:13,098 ] - 32 - root - INFO - Splitting,training and test input data
+[ 2024-10-23 22:17:00,107 ] - 101 - root - INFO - Best found model on both training and testing dataset
