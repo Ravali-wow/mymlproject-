@@ -58,3 +58,6 @@ conda : The term 'conda' is not recognized as the name of a cmdlet, function, sc
 spelling of the name, or if a path was included, verify that the path is correct and try again
   --resolved this by adding bin and Scripts of anaconda prompt to env variables of my account
   --in anaconda prompt, give 'where conda' to fetch paths
+
+
+AWS Elastic Bean Stalk : Its a service provided by AWS to deploy and scale the web applications.Its instance is created in ebextensions\python.config file. It contains the entry point of the application ie., 'application' . Since we dont have any application.py till now, we make application.py with the code of app.py. This application.py is for deployment of the app in AWS.
