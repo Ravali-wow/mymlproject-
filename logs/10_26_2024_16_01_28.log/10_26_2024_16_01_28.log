@@ -1,0 +1,13 @@
+[ 2024-10-26 16:01:28,556 ] - 97 - werkzeug - WARNING -  * Debugger is active!
+[ 2024-10-26 16:01:28,605 ] - 97 - werkzeug - INFO -  * Debugger PIN: 207-993-964
+[ 2024-10-26 16:01:33,392 ] - 97 - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2024 16:01:33] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2024-10-26 16:01:33,430 ] - 97 - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2024 16:01:33] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2024-10-26 16:01:33,447 ] - 97 - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2024 16:01:33] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2024-10-26 16:01:33,552 ] - 97 - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2024 16:01:33] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=oca4rVp1HKl8hxbYgKT6 HTTP/1.1" 200 -
+[ 2024-10-26 16:01:33,586 ] - 97 - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2024 16:01:33] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2024-10-26 16:03:54,685 ] - 97 - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2024 16:03:54] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2024-10-26 16:03:54,735 ] - 97 - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2024 16:03:54] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2024-10-26 16:03:54,739 ] - 97 - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2024 16:03:54] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2024-10-26 16:03:54,787 ] - 97 - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2024 16:03:54] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=oca4rVp1HKl8hxbYgKT6 HTTP/1.1[0m" 304 -
+[ 2024-10-26 16:03:54,981 ] - 97 - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2024 16:03:54] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2024-10-26 16:07:19,079 ] - 97 - werkzeug - INFO -  * Detected change in 'D:\\mymlproject\\src\\utils.py', reloading

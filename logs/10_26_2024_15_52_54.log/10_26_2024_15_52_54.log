@@ -1,0 +1,8 @@
+[ 2024-10-26 15:52:54,314 ] - 97 - werkzeug - WARNING -  * Debugger is active!
+[ 2024-10-26 15:52:54,341 ] - 97 - werkzeug - INFO -  * Debugger PIN: 207-993-964
+[ 2024-10-26 15:53:05,823 ] - 97 - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2024 15:53:05] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2024-10-26 15:53:05,869 ] - 97 - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2024 15:53:05] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2024-10-26 15:53:05,871 ] - 97 - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2024 15:53:05] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2024-10-26 15:53:05,920 ] - 97 - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2024 15:53:05] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=zrnXtQfyEYWt3HFiTTlE HTTP/1.1" 200 -
+[ 2024-10-26 15:53:06,034 ] - 97 - werkzeug - INFO - 127.0.0.1 - - [26/Oct/2024 15:53:06] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2024-10-26 15:55:54,282 ] - 97 - werkzeug - INFO -  * Detected change in 'D:\\mymlproject\\app.py', reloading
